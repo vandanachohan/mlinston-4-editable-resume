@@ -1,0 +1,211 @@
+/* body{ background-color: beige;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;;
+    padding: 0;
+    background-color: rgb(208, 224, 238);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+fieldset {
+    border: 3px solid #3498bd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue
+    
+}
+
+legend{
+
+    font-weight: bold;
+    text-align: left;
+    color: #2c2c2c;
+
+}
+
+label{
+    display: block;
+    margin-top:10px ;
+    color: #2c2c2c;
+}
+
+
+input,textarea{
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #8dbfd1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    box-sizing: content-box;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(198, 241, 241);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: #8dbfd1;
+
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498bd;
+    border-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5)
+}
+#resumeOuput h2{
+    color: #2c2c2c;
+}
+
+.profile-picture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow: 0 4px rgb(198, 241, 241);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+} */
+
+
+
+
+/* General body styling */
+body {
+    background-color: rgb(207, 182, 149);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    color: black;
+}
+
+/* Form styling */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 3px solid #3498bd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2c2c2c;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c2c2c;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #8dbfd1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    box-sizing: content-box;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(198, 241, 241);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #8dbfd1;
+}
+
+/* Resume output styling */
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #e082a9;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Resume heading styling */
+#resumeOutput h2 {
+    color: #2c2c2c;
+}
+
+/* Profile picture styling */
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
